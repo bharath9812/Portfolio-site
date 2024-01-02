@@ -7,22 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <script src="main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="header">
       <div class="container">
         <nav>
-          <h1 style="color: bisque">
-            Bharath Reddy <span style="color: red">Mandadhi</span>
-          </h1>
+          <h1>Bharath Reddy <span style="color: red">M</span></h1>
           <ul>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">Git</a></li>
+            <li>
+              <a
+                href="
+              https://drive.google.com/file/d/1Y0MPgadMz5YhTeKntnbwp3uIXwmGHNsG/view?usp=sharing"
+                >Resume</a
+              >
+            </li>
+            <li>
+              <a href="https://github.com/bharath9812/Portfolio-site">GitHub</a>
+            </li>
             <li><a href="#">Proj</a></li>
             <li><a href="#">Contact</a></li>
+            <li><i class="fas fa-circle-half custom-icon-color"></i></li>
+            <!--<button onclick="myFunction()">Toggle dark mode</button>  -->
           </ul>
         </nav>
       </div>
+    </div>
+
+    <div>
+      <p style="color: blue; text-align: center">Under Construnction!!</p>
     </div>
 
     <div class="pic">
@@ -30,15 +48,16 @@
         <img src="./Profile.jpg" alt="Profile Picture" />
       </div>
       <ul>
-        <li>Hi, I'm Bharath</li>
+        <li style="font-size: xx-large; font-family: 'Work Sans', sans-serif">
+          Hello,I'm Bharath
+        </li>
         <li>
-          <p>
-            <span>Hello,I'm Bharath</span>
-            A B.Tech student with experience in Web development,Kotlin for
-            Androidappdevelopment,Java,and Python. Seeking placement
-            opportunities to leverage skills and drive meaningful impact.
-            Passionate about learning and committed to expanding expertise in
-            new technologies.
+          <p style="font-family: 'Work Sans', sans-serif; font-size: medium">
+            <br />
+            Aspiring B.Tech student skilled in Web development, Android app
+            development using Kotlin, Java, and Python. Actively seeking
+            placement opportunities to apply and grow expertise in tech, driven
+            by a passion for learning and innovation.
           </p>
         </li>
       </ul>
@@ -57,6 +76,13 @@
         </p>
       </ul>
     </footer>
+
+    <script>
+      function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+    </script>
 
     <!-- <img href="./Profile.jpg" />-->
   </body>
